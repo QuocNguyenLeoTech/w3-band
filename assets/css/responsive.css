@@ -1,0 +1,100 @@
+/* Reponsive */
+/* Pc */
+@media (min-width: 1024px) {
+
+}
+
+/* Tablet & mobile */
+@media (max-width: 1023px) {
+    .place-buy-btn {
+        padding: 13px 16px;
+    }
+    
+    .contact-btn-send {
+        padding: 13px 20px;
+    }
+
+    .contact-input {
+        padding: 13px;
+    }
+
+    .contact-info {
+        font-size: 19px;
+        line-height: 1.8;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    #content .content__section {
+        width: 100%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .s-col-1 {
+        width: 100%;
+    }
+
+    .s-margin-top-8 {
+        margin-top: 8px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+    
+    #header .menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+    }
+    
+    #header .search-btn {
+        display: none;
+    }
+
+    #content .content__section {
+        width: 100%;
+    }
+
+    #nav {
+        display: block;
+    }
+    
+    #nav > li {
+        display: block;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav > li:nth-child(2) {
+        border-top: 1px solid #ccc;
+    }
+
+    .subnav {
+        position: initial;
+        background-color: #ccc;
+    }
+
+    #content .member-img {
+        width: 70%;
+    }
+
+    .contact-btn-send {
+        margin: 16px 8px 0;
+    }
+
+    .place-buy-btn {
+        width: 100%;
+        text-align: center;
+    }
+}

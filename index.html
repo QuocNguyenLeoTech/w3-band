@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/favicons/favicon2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>The Band</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Band</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">
+                        More
+                        <i class="fa-solid fa-caret-down nav__item-icon"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Axtras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <div class="search-btn">
+                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+            </div>
+
+            <div id="menu" class="menu-btn">
+                <i class="menu-icon fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div id="slider">
+            <div class="slider__content">
+                <h2 class="slider__heading">Los Angeles</h2>
+                <p class="slider__desc">We had the best time playing at Venice Beach!</p>
+            </div>
+        </div>
+
+        <div id="content">
+            <div id="band" class="content__section">
+                <h1 class="content__heading">THE BAND</h1>
+                <p class="content__sub__heading">We love music</p>
+                <p class="about__band">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="row row-around member-list text-center">
+                    <div class="col s-col-1 margin-top-32 col-3">
+                        <p class="member-name">Member1</p>
+                        <img src="./assets/img/members/member1.jpg" alt="member1" class="member-img">
+                    </div>
+                    <div class="col s-col-1 margin-top-32 col-3">
+                        <p class="member-name">Member2</p>
+                        <img src="./assets/img/members/member1.jpg" alt="member1" class="member-img">
+                    </div>
+                    <div class="col s-col-1 margin-top-32 col-3">
+                        <p class="member-name">Member3</p>
+                        <img src="./assets/img/members/member1.jpg" alt="member1" class="member-img">
+                    </div>
+                </div>
+            </div>
+            <div id="tour" class="tour-dates">
+                <div class="content__section">
+                    <h1 class="content__heading text-while">TOUR DATES</h1>
+                    <p class="content__sub__heading text-while">Remember to book your tickets!</p>
+
+                    <ul class="ticket-list">
+                        <li>September <span class="sold-out">Sold out</span></li>
+                        <li>October  <span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quantity">3</span></li>
+                    </ul>
+
+                    <div class="row row-between place-list">
+                        <div class="col s-col-1 margin-top-16 col-3">
+                            <img src="./assets/img/places/place1.jpg" alt="New York" class="place-img">
+                            <div class="place-content">
+                                <h2 class="place-heading">New York</h2>
+                                <p class="place-time">Fri 27 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="place-buy-btn js-place-buy-btn btn">Buy Tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="col s-col-1 margin-top-16 col-3">
+                            <img src="./assets/img/places/place2.jpg" alt="Paris" class="place-img">
+                            <div class="place-content">
+                                <h2 class="place-heading">Paris</h2>
+                                <p class="place-time">Sat 28 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="place-buy-btn js-place-buy-btn btn">Buy Tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="col s-col-1 margin-top-16 col-3">
+                            <img src="./assets/img/places/place3.jpg" alt="San Francisco" class="place-img">
+                            <div class="place-content">
+                                <h2 class="place-heading">San Francisco</h2>
+                                <p class="place-time">Sun 29 Nov 2016</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="place-buy-btn js-place-buy-btn btn">Buy Tickets</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contact" class="content__section">
+                <h1 class="content__heading">CONTACT</h1>
+                <p class="content__sub__heading">Fan? Drop a note!</p>
+
+                <div class="row row-between contact-content">
+                    <div class="col margin-top-16 s-col-1 col-2 contact-info">
+                        <p><i class="fa-solid fa-location-dot"></i> Chicago, US</p>
+                        <p><i class="fa-solid fa-phone"></i> Phone: <a href="tel:+00 151515">+00 151515</a></p>
+                        <p><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:mail@mail.com">mail@mail.com</a></p>
+                    </div>
+
+                    <div class="col margin-top-16 s-col-1  col-2 contact-form">
+                        <form action="">
+                            <div class="row row-between">
+                                <div class="col s-col-1 col-2">
+                                    <input type="text" placeholder="Name" class="contact-input">
+                                </div>
+                                <div class="col s-col-1 s-margin-top-8 col-2">
+                                    <input type="email" placeholder="Email" class="contact-input">
+                                </div>
+                            </div>
+                            <div class="row margin-top-8">
+                                <div class="col col-1">
+                                    <input type="text" placeholder="Message" class="contact-input">
+                                </div>
+                            </div>
+                            <div class="row contact-submit">
+                                <input class="contact-btn-send margin-top-16" type="submit" value="Send">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-map">
+                <img src="./assets/img/maps/map.jpg" alt="Map">
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="socical-list">
+                <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube-square"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest-square"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+            <p class="footer-text">Powered by  <a href="#">w3.css</a></p>
+        </div>
+
+        <div class="modal js-modal">
+            <div class="modal-container js-modal-container">
+                <div class="modal-close js-modal-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+
+                <header class="modal-header">
+                    <i class="fa-solid fa-suitcase"></i>
+                    Tickets
+                </header>
+
+                <div class="modal-content">
+                    <label for="modal-quantity" class="modal-label">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        Tickets, $15 per person
+                    </label>
+                    <input class="modal-input" id="modal-quantity" type="text" placeholder="How many?">
+
+                    <label for="modal-email" class="modal-label">
+                        <i class="fa-solid fa-user"></i>
+                        Send To
+                    </label>
+                    <input class="modal-input" id="modal-email" type="email" placeholder="Enter email...">
+
+                    <button class="modal-pay-btn">pay <i class="fa-solid fa-check"></i></button>
+                </div>
+
+                <footer class="modal-footer">
+                    Need <a href="#">help?</a>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var header = document.getElementById('header');
+        var menu = document.getElementById('menu');
+        var headerHeight = header.clientHeight;
+
+        menu.onclick = function() {
+            var isClose = header.clientHeight === headerHeight;
+
+            if (isClose) {
+                header.style.height = 'auto';
+            } else {
+                header.style.height = null;
+            }
+        }
+
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        
+        for (let i = 0; i < menuItems.length; i++) {
+            const menuItem = menuItems[i];
+            
+            menuItem.onclick = function(event) {
+                var isParentMenu = this.nextElementSibling && this.nextElementSibling.classList.contains('subnav');
+                if(isParentMenu) {
+                    event.preventDefault();
+                }else {
+                    header.style.height = null;
+                }
+            }
+        }
+    </script>
+
+    <script>
+        const buyTickets = document.querySelectorAll(".js-place-buy-btn")
+        const modal = document.querySelector(".js-modal");
+        const modalContainer = document.querySelector('.js-modal-container')
+        const modalClose = document.querySelector('.js-modal-close')
+
+        function showModal() {
+            modal.classList.add("open")
+        }
+
+        function hideModal() {
+            modal.classList.remove('open')
+        }
+
+        for (const buyTicket of buyTickets) {
+            buyTicket.addEventListener('click', showModal)
+        }
+
+        modalClose.addEventListener('click', hideModal)
+
+        modal.addEventListener('click', hideModal)
+
+        modalContainer.addEventListener('click', function(event) {
+            event.stopPropagation()
+        })
+    </script>
+</body>
+</html>
